@@ -5,7 +5,10 @@ $light-gray: #262626;
 $darker-white: #ebebeb;
 $medium-white: #f5f5f5;
 $light-white: #fafafa;
-$pure-white: #fff;
+
+$darker-red: #6c000d;
+$medium-red: #840010;
+$light-red: #cf3446;
 
 :export {
   darker-gray: $darker-gray;
@@ -14,5 +17,4 @@ $pure-white: #fff;
   darkerWhite: $darker-white;
   medium-white: $medium-white;
   light-white: $light-white;
-  pure-white: $pure-white;
 }

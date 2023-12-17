@@ -2,9 +2,17 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  padding: 32px;
   min-height: calc(100vh - 88px);
+  gap: 32px;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 64px 128px;
+  }
 }
 
 @media (prefers-color-scheme: dark){

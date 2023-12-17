@@ -8,11 +8,20 @@
 @media (prefers-color-scheme: dark){
   .navbar {
     background-color: #242424;
-    border-bottom: outset 1px #f5f5f5;
+    border-bottom: outset 1px #cf3446;
     color: #f5f5f5;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    padding: 0 10%;
+    .ul{
+      display: flex;
+      gap: 64px;
+      .link:hover {
+        color:#cf3446;
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -22,7 +31,15 @@
     border-bottom: outset 1px #242424;
     color: #242424;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    padding: 0 10%;
+    .ul{
+      display: flex;
+      gap: 64px;
+      .link:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }

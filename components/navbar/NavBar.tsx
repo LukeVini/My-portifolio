@@ -17,8 +17,11 @@ export default function NavBar() {
 
   return (
     <nav className={styles.navbar}>
-        <ul>
-          <Link href={'/projects'}>Projetos</Link>
+        <ul className={styles.ul}>
+          <Link className={styles.link} href={'/contato'}>Contato</Link>
+          <Link className={styles.link} href={'/sobremim'}>Sobre Mim</Link>
+          <Link className={styles.link} href={'/projetos'}>Projetos</Link>
+          <Link className={styles.link} href={'/'}>Página Principal</Link>
         </ul>
       </nav>
   )
