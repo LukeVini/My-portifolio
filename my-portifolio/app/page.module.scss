@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+
+  .navbar{
+    height: 88px;
+    width: 100%;
+    background-color: rgb(2, 2, 10);
+  }
+}
