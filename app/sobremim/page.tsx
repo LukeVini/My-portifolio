@@ -8,7 +8,7 @@ export default function page() {
     <main className={styles.main}>
       <h1>Sobre mim</h1>
       <section className={styles.imageContainer}>
-        <Image className={styles.imageContainer} src={'/images/eu.jpg'} alt='eu' layout='fill' objectFit='cover' />
+        <Image className={styles.imageContainer} src={'/images/eu.jpg'} alt='eu' fill style={{objectFit: "cover", borderRadius: "12px"}} />
       </section>
       <section className={styles.textContainer}>
         <p>Meu nome é <b>Lucas Vinicius</b>, tenho 18 anos, nasci em Contagem, MG. Torço pro Atlético MIneiro, e minha Stack favorita é NextJs, React e Sass.</p>
