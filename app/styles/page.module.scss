@@ -1,0 +1,22 @@
+@import url('/variables.module.scss');
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: calc(100vh - 88px);
+}
+
+@media (prefers-color-scheme: dark){
+  .main {
+    background-color: #242424;
+    color: #f5f5f5;
+  }
+}
+
+@media (prefers-color-scheme: light){
+  .main {
+    background-color: #f5f5f5;
+    color: #242424;
+  }
+}
